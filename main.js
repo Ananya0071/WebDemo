@@ -3,7 +3,8 @@
   
     Moengage = moe({
     app_id:"2877NHMD0TOHATHC6NNHDERW",
-    debug_logs: 1
+    debug_logs: 1,
+      swPath: "/WebDemo/serviceworker.js"
     });
     Moengage.call_web_push();
 
